@@ -125,7 +125,7 @@ export default function Contact() {
                         <FormItem>
                           <FormLabel className="text-xs uppercase tracking-widest font-normal">Name</FormLabel>
                           <FormControl>
-                            <Input placeholder="Jane Doe" className="bg-transparent border-0 border-b border-border rounded-none px-0 focus-visible:ring-0 focus-visible:border-primary shadow-none" {...field} />
+                            <Input placeholder="Shubham S" className="bg-transparent border-0 border-b border-border rounded-none px-0 focus-visible:ring-0 focus-visible:border-primary shadow-none" {...field} />
                           </FormControl>
                           <FormMessage className="text-xs font-light" />
                         </FormItem>
@@ -153,7 +153,7 @@ export default function Contact() {
                       <FormItem>
                         <FormLabel className="text-xs uppercase tracking-widest font-normal">Email</FormLabel>
                         <FormControl>
-                          <Input type="email" placeholder="jane@example.com" className="bg-transparent border-0 border-b border-border rounded-none px-0 focus-visible:ring-0 focus-visible:border-primary shadow-none" {...field} />
+                          <Input type="email" placeholder="rc@example.com" className="bg-transparent border-0 border-b border-border rounded-none px-0 focus-visible:ring-0 focus-visible:border-primary shadow-none" {...field} />
                         </FormControl>
                         <FormMessage className="text-xs font-light" />
                       </FormItem>
