@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "What is the minimum project size or budget?",
-    a: "We typically work on projects starting from ₹30 Lakhs. Our focus is on quality of execution, so we take on a limited number of commissions each year to give every project our undivided attention.",
+    a: "We typically work on projects starting from ₹30 Lakhs. Our focus is on quality of execution, so we take on a limited number of Projects each year to give every project our undivided attention.",
   },
   {
     q: "Do you handle complete turnkey projects?",
