@@ -40,7 +40,7 @@ const faqs = [
 const pillars = [
   {
     number: "01",
-    title: "Curated Commissions",
+    title: "Curated Projects",
     body: "We accept only 12 projects per year. Every commission receives the personal attention of our lead designer from concept to completion.",
   },
   {
@@ -220,7 +220,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 md:mb-24 gap-6">
             <SectionHeader
               subtitle="Selected Works"
-              title="Recent Commissions"
+              title="Recent Projects"
               className="mb-0"
             />
             <Link href="/portfolio">
@@ -361,7 +361,7 @@ export default function Home() {
       <section className="py-24 md:py-32 px-6 bg-background">
         <div className="container mx-auto">
           <SectionHeader
-            subtitle="New Commissions"
+            subtitle="New Projects"
             title="Start Your Project"
             align="center"
             className="mb-4"
