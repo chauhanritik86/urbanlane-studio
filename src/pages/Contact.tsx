@@ -74,7 +74,7 @@ export default function Contact() {
             <div className="sticky top-32">
               <SectionHeader 
                 subtitle="New Projects"
-                title="Start your commission."
+                title="Start your Project."
                 className="mb-12"
               />
               <p className="text-lg font-light leading-relaxed text-foreground/80 mb-16 max-w-md">
