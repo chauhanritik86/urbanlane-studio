@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "URBANLANE STUDIO"
+version = "1.0.0"
+id = "artifacts/urbanlane-studio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25739
+
+[services.development]
+run = "pnpm --filter @workspace/urbanlane-studio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/urbanlane-studio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/urbanlane-studio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25739"
+BASE_PATH = "/"
